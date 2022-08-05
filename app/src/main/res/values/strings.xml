@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="str_enter_user_name">Enter UserName</string>
+    <string name="str_enter_email">Enter Email</string>
+    <string name="str_enter_password">Enter Password</string>
+    <string name="str_enter_login">Login</string>
+    <string name="str_goto_session">Go To Session</string>
+    <string name="str_enter_forgot_password">Forgot Password</string>
+    <string name="str_enter">Enter</string>
+    <string name="str_via_mobile_sms">Via Mobile SMS</string>
+    <string name="str_via_email">Via Email</string>
+    <string name="str_4_digit_verification_code">4 Digit Verification Code</string>
+    <string name="str_verify">Verify</string>
+    <string name="str_set_password">Set Password</string>
+    <string name="str_change_password">Change Password</string>
+    <string name="str_confirm_password">Confirm Password</string>
+    <string name="str_sign_in">Sign In</string>
+    <string name="str_menu">Menu</string>
+    <string name="str_choose_the_option_below_to_reset_your_password">Choose The Option Below To Reset Your Password</string>
+    <string name="in_time"><font fgcolor='#FECC2F'>Start before 10 min to avoid Late Attendance</font></string>
+
+</resources>

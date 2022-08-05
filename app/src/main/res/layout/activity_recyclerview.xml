@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="16dp">
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/uiTvNotificationTime"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:textColor="@color/black_38"
+       android:textSize="12sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:text="5 min"/>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/uiTvNotificationTitle"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:textColor="@color/hint_text_color"
+       android:textDirection="locale"
+       android:textSize="14sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/uiTvNotificationTime"
+       tools:text="Lecture session"/>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/uiTvNotificationDescription"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:textColor="@color/hint_text_color"
+       android:textDirection="locale"
+       android:textSize="12sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/uiTvNotificationTitle"
+       tools:text="L3 Introduction to Anatomy, Online interactive lecture \n
+Dental (3 Yr) • CNS Module • L3 • Room-31\n
+Session Completed (10:00-11AM)"/>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/uiTvNotificationStatus"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:textColor="@color/digi_yellow"
+       android:textDirection="locale"
+       android:textSize="12sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/uiTvNotificationDescription"
+       tools:text="@string/in_time"/>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/uiTvNotificationAction"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="?selectableItemBackground"
+       android:gravity="end"
+       android:paddingHorizontal="10dp"
+       android:paddingVertical="10dp"
+       android:text="@string/str_goto_session"
+       android:textColor="@color/tab_selected_color"
+       android:textDirection="locale"
+       android:textSize="12sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/uiTvNotificationStatus"
+       app:textAllCaps="true"/>
+
+   <View
+       android:id="@+id/uiViewBottomDivider"
+       android:layout_width="0dp"
+       android:layout_height="1.5dp"
+       android:layout_marginTop="11dp"
+       android:background="@color/grey_200"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/uiTvNotificationAction"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
